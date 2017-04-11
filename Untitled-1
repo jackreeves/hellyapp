@@ -1,0 +1,57 @@
+%%[ 
+
+set @cmDate = "Apr10"
+set @cmName = "sale50recall"
+set @main_link = "/mens/sale/category/m11"
+set @button1_link = "/mens/sale/category/m11"
+
+
+if @language == "de" then
+
+set @subject = "50% Rabatt → Diese Angebote laufen schnell ab"
+set @preheader = "5O% RABATT. JETZT WIE NIE ZUVOR"
+set @header_1 = '5O% RABATT<br>JETZT WIE NIE ZUVOR'
+set @copy_1 = "Jetzt online kaufen und diesen Sonderrabatt auf Bekleidung, <br class='break-desktop' />Schuhe und Accessoires sparen. <br class='break-mobile' style='display:none'/>Auch der Versand ist kostenlos."
+set @button1 = "JETZT KAUFEN"
+
+elseif @language == "fr" then
+
+set @subject = "50% de réduction → Ces promotions se terminent rapidement"
+set @preheader = "5O% DE REDUCTION. C'EST MAINTENANT OU JAMAIS"
+set @header_1 = "5O% DE REDUCTION<br>C'EST MAINTENANT OU JAMAIS"
+set @copy_1 = "Achetez en ligne maintenant et faites des économies grâce à cette <br class='break-desktop' />offre spéciale sur l'Habillement, les Chaussures et les Accessoires. <br />Et la livraison est gratuite!"
+set @button1 = "ACHETEZ MAINTENANT"
+
+elseif @language == "it" then
+
+set @subject = "50% di sconto → Non perderti le offerte"
+set @preheader = "5O% DI SCONTO. UN'OCCASIONE UNICA"
+set @header_1 = "5O% DI SCONTO<br>UN'OCCASIONE UNICA"
+set @copy_1 = "Acquista subito e risparmia grazie allo sconto speciale su abbigliamento, <br class='break-desktop' />scarpe e accessori. <br class='break-mobile' style='display:none'/>Avrai anche la consegna gratuita."
+set @button1 = "ACQUISTA ORA"
+
+
+elseif @country == "es" then
+
+set @subject = "50% de descuento → Las ofertas que estabas esperando"
+set @preheader = "5O% DE DESCUENTO. APROVECHA LA OCASIÓN"
+set @header_1 = "5O% DE DESCUENTO<br>APROVECHA LA OCASIÓN"
+set @copy_1 = "Compra ahora por internet y ahorra gracias a este descuento especial en ropa, <br class='break-desktop' />calzado y accesorios. <br class='break-mobile' style='display:none'/>¡El envío es gratis!"
+set @button1 = "COMPRA AHORA"
+
+
+else
+
+set @subject = "50% off Clearance → These deals are going fast"
+set @preheader = "5O% OFF CLEARANCE. NO TIME LIKE NOW"
+set @header_1 = "5O% OFF CLEARANCE<br>NO TIME LIKE NOW"
+set @copy_1 = "Shop now and save with this special discount on Apparel, <br class='break-desktop' />Footwear and Accessories. Get free Shipping, too."
+set @button1 = "SHOP NOW"
+
+
+
+
+endif
+ ]%%
+
+%%=v(@subject)=%%
